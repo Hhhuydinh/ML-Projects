@@ -11,7 +11,7 @@ passenger data like age, sex, class and fare.
 
 **Libraries:** Python, Pandas, Scikit-learn, NumPy, Matplotlib  
 **Model:** Random Forest Classifier  
-**Accuracy:** 82%
+**Accuracy:** 82%  
 **Dataset:** Data was imported from kaggle - https://www.kaggle.com/competitions/titanic/data
 
 ### What I did
