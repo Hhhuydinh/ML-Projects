@@ -12,7 +12,7 @@ passenger data like age, sex, class and fare.
 **Libraries:** Python, Pandas, Scikit-learn, NumPy, Matplotlib  
 **Model:** Random Forest Classifier  
 **Accuracy:** 82%  
-**Dataset:** Data imported from Kaggle - [Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+**Dataset:** [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
 
 ### What I did
 - Cleaned and preprocessed real Titanic passenger data
@@ -23,23 +23,20 @@ passenger data like age, sex, class and fare.
 ---
 
 ## Stock Trend Predictor
-Predicts whether QQQ ETF will go up or down the next trading 
-day using historical market data.
+Predicts whether QQQ ETF will go up or down the next trading day.
 
-**Libraries:** Python, Pandas, Scikit-learn, yfinance, Matplotlib, ta  
-**Model:** Random Forest Classifier  
-**Accuracy:** ~50%
+**Libraries:** Python, PyTorch, Scikit-learn, yfinance, Matplotlib, ta  
+**Models:** Random Forest → Neural Network (MLP)  
+**Accuracy:** Random Forest 53.7% → Neural Network 57.4% 
 
 ### What I did
 - Pulled real time QQQ data using yfinance API
-- Engineered features including 7/30 day moving averages, 
-  RSI and volume change percentage
-- Visualized price history with live price annotation 
-  and next day prediction confidence
+- Engineered features including EMAs (9, 21, 50, 200) and volume change
+- Built and trained a PyTorch MLP neural network
+- Improved accuracy over Random Forest baseline
+- Visualized price history with live price and next day prediction
 
 ---
 
 ## Currently Learning
-- Neural Networks and Backpropagation from scratch
-- PyTorch
 - Working towards building an LSTM stock predictor
