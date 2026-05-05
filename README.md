@@ -27,7 +27,7 @@ Predicts whether QQQ ETF will go up or down the next trading day.
 
 **Libraries:** Python, PyTorch, Scikit-learn, yfinance, Matplotlib, ta  
 **Models:** Random Forest → Neural Network (MLP)  
-**Accuracy:** Random Forest 53.7% → Neural Network 57.4% 
+**Accuracy:** Random Forest 50-53% → Neural Network 55-58% 
 
 ### What I did
 - Pulled real time QQQ data using yfinance API
