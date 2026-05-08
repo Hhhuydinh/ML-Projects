@@ -23,18 +23,27 @@ passenger data like age, sex, class and fare.
 ---
 
 ## Stock Trend Predictor
-Predicts whether QQQ ETF will go up or down the next trading day.
+Currently working with the stock QQQ
+Predicts whether QQQ ETF will go up or down the next trading day
+using historical market data and machine learning.
 
 **Libraries:** Python, PyTorch, Scikit-learn, yfinance, Matplotlib, ta  
-**Models:** Random Forest → Neural Network (MLP)  
-**Accuracy:** Random Forest 53.7% → Neural Network 57.4% 
+**Dataset:** Real time QQQ data pulled from Yahoo Finance (2009 - present)
+
+### Models & Accuracy
+| Model                 | Accuracy |
+|-----------------------|----------|
+| Random Forest         |   ~53%   |
+| MLP Neural Network    |   ~57%   |
+| LSTM Neural Network   |   ~55%   |
 
 ### What I did
-- Pulled real time QQQ data using yfinance API
-- Engineered features including EMAs (9, 21, 50, 200) and volume change
-- Built and trained a PyTorch MLP neural network
-- Improved accuracy over Random Forest baseline
-- Visualized price history with live price and next day prediction
+- Downloaded and processed 15 years of real QQQ market data
+- Implemented technical indicators including EMA (9, 21, 50, 200 day)
+- Built and compared three models: Random Forest, MLP and LSTM
+- Implemented minibatch training with early stopping to prevent overfitting
+- Visualized full price history with live price annotation and
+  next day prediction confidence
 
 ---
 
