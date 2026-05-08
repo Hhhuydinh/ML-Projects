@@ -5,7 +5,7 @@ Python, Pandas, Scikit-learn and PyTorch.
 
 ---
 
-## 🚢 Titanic Survival Predictor
+## Titanic Survival Predictor
 Predicts whether a Titanic passenger survived based on 
 passenger data like age, sex, class and fare.
 
