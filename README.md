@@ -39,9 +39,6 @@ Predicts whether QQQ ETF will go up or down the next trading day.
 ---
 
 ## Currently Learning
-<<<<<<< HEAD
+- Finished Andrej Karpathy "Neural Network: Zero to Hero": Micrograd, Parts 1-5 of Makemore
 - Built LSTM stock predictor with PyTorch
 - Next: Exploring transformer architectures
-=======
-- Working towards building an LSTM stock predictor
->>>>>>> parent of 2302bb8 (Added LSTM predictor with price chart and early stopping)
