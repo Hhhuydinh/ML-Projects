@@ -33,7 +33,7 @@ using historical market data and machine learning.
 ### Models & Accuracy
 | Model                 | Accuracy |
 |-----------------------|----------|
-| Random Forest         |   ~53%   |
+| Random Forest         |   ~50%   |
 | MLP Neural Network    |   ~57%   |
 | LSTM Neural Network   |   ~55%   |
 
@@ -42,8 +42,7 @@ using historical market data and machine learning.
 - Implemented technical indicators including EMA (9, 21, 50, 200 day)
 - Built and compared three models: Random Forest, MLP and LSTM
 - Implemented minibatch training with early stopping to prevent overfitting
-- Visualized full price history with live price annotation and
-  next day prediction confidence
+- Visualized full price history with live price annotation and next day prediction confidence
 
 ---
 
