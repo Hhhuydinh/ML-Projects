@@ -23,8 +23,8 @@ passenger data like age, sex, class and fare.
 ---
 
 ## Stock Trend Predictor
-Currently working with the stock QQQ
-Predicts whether QQQ ETF will go up or down the next trading day
+Currently working with the stock QQQ   
+Predicts whether QQQ ETF will go up or down the next trading day   
 using historical market data and machine learning.
 
 **Libraries:** Python, PyTorch, Scikit-learn, yfinance, Matplotlib, ta  
